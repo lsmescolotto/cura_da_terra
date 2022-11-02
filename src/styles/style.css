@@ -1,0 +1,29 @@
+:root {
+  --main-beige: #bcaa89;
+  --main-green: #455040;
+  --main-white: #f5f5f5;
+}
+
+.greenBackground {
+  background-color: var(--main-green);
+}
+
+.beigeBackground {
+  background-color: var(--main-beige);
+}
+
+.whiteBackground {
+  background-color: var(--main-white);
+}
+
+.greenColor {
+  color: var(--main-green);
+}
+
+.beigeColor {
+  color: var(--main-beige);
+}
+
+.whiteColor {
+  color: var(--main-white);
+}
