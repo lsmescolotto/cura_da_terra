@@ -28,6 +28,14 @@
   color: var(--main-white);
 }
 
+.titleFont {
+  font-family: "Arima Madurai", cursive;
+}
+
+.textFont {
+  font-family: "Sarabun", sans-serif;
+}
+
 .smallIcon {
   width: 32px;
 }
