@@ -27,3 +27,23 @@
 .whiteColor {
   color: var(--main-white);
 }
+
+.smallIcon {
+  width: 32px;
+}
+.bigIcon {
+  width: 56px;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 100vw;
+}
+
+header {
+  height: 112px;
+  padding: 18px 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
