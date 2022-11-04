@@ -59,14 +59,24 @@ body {
 /* HEADER */
 header {
   height: 112px;
-  padding: 18px 34px;
+  padding: 18px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.headerFirstContainer {
+  width: 60%;
+  max-width: 220px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .headerLogoContainer {
   border-radius: 50%;
   height: 77px;
   width: 77px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
