@@ -80,3 +80,51 @@ header {
   align-items: center;
   justify-content: center;
 }
+
+.mobileMenu {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  z-index: 100;
+  top: 45px;
+  right: 1rem;
+}
+
+.menu {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: var(--main-green);
+  list-style: none;
+  padding-top: 30vh;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 2rem 4rem;
+  font-size: 1.8rem;
+  color: var(--main-beige);
+  text-decoration: none;
+}
+
+.menuItem:hover {
+  color: var(--main-white);
+}
+
+.material-symbols-outlined {
+  fill: 1;
+  display: inline-block;
+  font-size: 12px;
+}
