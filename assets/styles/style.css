@@ -22,6 +22,10 @@
   background-color: var(--main-white);
 }
 
+.lightBeigeBackground {
+  background-color: var(--secondary-beige);
+}
+
 .greenColor {
   color: var(--main-green);
 }
@@ -36,6 +40,7 @@
 
 .titleFont {
   font-family: var(--title-font);
+  font-weight: 900;
 }
 
 .textFont {
@@ -53,7 +58,7 @@
 /* BODY */
 body {
   min-height: 100vh;
-  /* max-width: 100vw; */
+  font-family: var(--text-font);
 }
 
 /* HEADER */
@@ -85,10 +90,10 @@ header {
   background-color: transparent;
   border: none;
   cursor: pointer;
-  position: fixed;
+  position: absolute;
   z-index: 100;
   top: 45px;
-  right: 1rem;
+  right: 24px;
 }
 
 .menu {
@@ -100,9 +105,12 @@ header {
   right: 0;
   bottom: 0;
   z-index: 99;
-  background: var(--main-green);
+  background-color: var(--main-green);
   list-style: none;
   padding-top: 30vh;
+  max-height: 100vh;
+  overflow: hidden;
+  font-weight: 600;
 }
 
 .showMenu {
@@ -127,4 +135,55 @@ header {
   fill: 1;
   display: inline-block;
   font-size: 12px;
+}
+
+/* FIRST SECTION */
+.firstSection {
+  min-height: 1066px;
+  background-image: url("../images/section1-bg-mobile.png");
+  background-size: 100vw 1066px;
+  padding: 0 30px;
+}
+
+.firstTextContainer {
+  height: 445px;
+  padding-top: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 32px;
+  text-align: center;
+  line-height: 142.8%;
+}
+
+.firstSubtitle {
+  font-size: 18px;
+  text-align: center;
+  line-height: 25.7px;
+}
+
+.subscribeButton {
+  font-family: var(--title-font);
+  font-size: 16px;
+  color: var(--main-beige);
+  background-color: var(--main-green);
+  border: none;
+  border-bottom: 5px solid var(--main-beige);
+  border-radius: 100px;
+  width: 100%;
+  height: 50px;
+}
+
+/* SECOND SECTION */
+.secondSection {
+  height: 2482px;
+  padding: 80px 34px;
+}
+
+.secondSection h2 {
+  font-size: 32px;
+  text-align: center;
 }
