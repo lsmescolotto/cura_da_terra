@@ -146,7 +146,7 @@ header {
 }
 
 .firstTextContainer {
-  height: 445px;
+  height: 588px;
   padding-top: 140px;
   display: flex;
   flex-direction: column;
@@ -179,8 +179,8 @@ h1 {
 
 /* SECOND SECTION */
 .secondSection {
-  height: 2482px;
-  padding: 80px 34px;
+  height: "auto";
+  padding: 80px 34px 20px 34px;
 }
 
 .secondSection h2 {
@@ -229,7 +229,7 @@ h1 {
 }
 
 .cardText {
-  height: 25%;
+  height: 35%;
   padding: 30px 16px;
   text-align: center;
   font: 900 18px var(--title-font);
@@ -252,4 +252,22 @@ h1 {
 
 .cardFour {
   background-image: url("../images/section2-img4.jpg");
+}
+
+/* THIRD SECTION */
+.thirdSection {
+  height: 100vw;
+  width: 100vw;
+  background-image: url("../images/section3-bg-mobile.jpg");
+  background-size: 100% 100%;
+  padding: 10.41% 7.94%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thirdSection h3 {
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
 }
