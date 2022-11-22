@@ -131,7 +131,7 @@ header {
   color: var(--main-white);
 }
 
-.material-symbols-outlined {
+.menuItem .material-symbols-outlined {
   fill: 1;
   display: inline-block;
   font-size: 12px;
@@ -166,12 +166,22 @@ h1 {
 }
 
 .subscribeButton {
-  font-family: var(--title-font);
-  font-size: 16px;
+  font: 900 16px var(--title-font);
   color: var(--main-beige);
   background-color: var(--main-green);
   border: none;
   border-bottom: 5px solid var(--main-beige);
+  border-radius: 100px;
+  width: 100%;
+  height: 50px;
+}
+
+.beigeSubscribeButton {
+  font: 900 16px var(--title-font);
+  color: var(--main-green);
+  background-color: var(--main-beige);
+  border: none;
+  border-bottom: 5px solid var(--main-green);
   border-radius: 100px;
   width: 100%;
   height: 50px;
@@ -344,4 +354,74 @@ h1 {
   max-width: 360px;
   height: 120%;
   padding-bottom: 80px;
+}
+
+/* SIXTH SECTION */
+.sixthSection {
+  height: 1585px;
+  padding: 19% 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sixthSection h3 {
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.offer {
+  height: 1107px;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 10px;
+}
+
+.offer figure {
+  height: 15%;
+}
+
+.offer img {
+  height: 100%;
+}
+
+.offer ul :last-child {
+  border: none;
+}
+
+.offer li {
+  color: var(--main-white);
+  height: 110px;
+  text-align: center;
+  border-bottom: 1px solid var(--main-beige);
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 275;
+  gap: 16px;
+}
+
+.offer li span {
+  color: var(--main-beige);
+  font-size: 16px;
+}
+
+.offer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.price {
+  font-size: 48px;
+  text-align: center;
+}
+
+.payment {
+  font-size: 14px;
+  text-align: center;
 }
