@@ -286,6 +286,8 @@ h1 {
 .fourthSection h3 {
   font-size: 40px;
   text-align: center;
+  line-height: 57.12px;
+  max-width: 80%;
 }
 
 .recipeCard {
@@ -309,4 +311,37 @@ h1 {
 .recipeCard h4 {
   text-align: center;
   font: 900 20px var(--title-font);
+  width: 100%;
+  max-width: 232px;
+}
+
+/* FIFTH SECTION */
+.fifthSection {
+  height: 776px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 34px;
+  justify-content: space-between;
+}
+
+.fifthSection h3 {
+  font-size: 28px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.fifthSection p {
+  font-size: 20px;
+  text-align: center;
+  line-height: 29px;
+  justify-self: flex-start;
+  margin-bottom: 24px;
+}
+
+.fifthSection img {
+  width: 100%;
+  max-width: 360px;
+  height: 120%;
+  padding-bottom: 80px;
 }
