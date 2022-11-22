@@ -59,6 +59,7 @@
 body {
   min-height: 100vh;
   font-family: var(--text-font);
+  width: 100vw;
 }
 
 /* HEADER */
@@ -424,4 +425,33 @@ h1 {
 .payment {
   font-size: 14px;
   text-align: center;
+}
+
+/* SEVENTH SECTION */
+.seventhSection {
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 14px;
+}
+
+.seventhSection figure {
+  height: 38%;
+}
+
+.seventhSection img {
+  height: 100%;
+}
+
+.seventhSection h4 {
+  font-size: 28px;
+  line-height: 43px;
+  text-align: center;
+  margin-bottom: 17px;
+}
+.seventhSection p {
+  text-align: center;
+  line-height: 40px;
 }
