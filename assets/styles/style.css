@@ -453,5 +453,47 @@ h1 {
 }
 .seventhSection p {
   text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+}
+
+/* EIGHTH SECTION */
+.eighthSection {
+  height: 1160px;
+  padding: 70px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eighthSection h3 {
+  font-size: 32px;
   line-height: 40px;
+  max-width: 360px;
+}
+
+.eighthSection div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.eighthSection p {
+  font-size: 18px;
+  line-height: 21px;
+  max-width: 360px;
+}
+
+.eighthSection b {
+  font-weight: 900;
+}
+
+.eighthSection figure {
+  width: 90%;
+  align-self: center;
+}
+
+.eighthSection img {
+  width: 100%;
 }
