@@ -490,10 +490,26 @@ h1 {
 }
 
 .eighthSection figure {
-  width: 90%;
+  width: 92%;
   align-self: center;
 }
 
 .eighthSection img {
+  width: 100%;
+}
+
+/* FOOTER */
+footer {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer figure {
+  width: 30%;
+}
+
+footer img {
   width: 100%;
 }
