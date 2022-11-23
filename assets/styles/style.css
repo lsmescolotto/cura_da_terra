@@ -55,6 +55,10 @@
   width: 56px;
 }
 
+a {
+  width: 100%;
+}
+
 /* BODY */
 body {
   min-height: 100vh;
