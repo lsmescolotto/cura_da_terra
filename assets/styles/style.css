@@ -55,7 +55,7 @@
   width: 56px;
 }
 
-a {
+section a {
   width: 100%;
 }
 
@@ -80,6 +80,7 @@ header {
   max-width: 220px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .headerLogoContainer {
@@ -114,12 +115,15 @@ header {
   list-style: none;
   padding-top: 30vh;
   max-height: 100vh;
-  overflow: hidden;
   font-weight: 600;
 }
 
 .showMenu {
   transform: translateY(0);
+}
+
+.fixedMenuButton {
+  position: fixed;
 }
 
 .menuItem {
@@ -286,6 +290,7 @@ h1 {
   font-weight: 500;
   line-height: 52px;
   text-align: center;
+  font-style: italic;
 }
 
 /* FOURTH SECTION */
