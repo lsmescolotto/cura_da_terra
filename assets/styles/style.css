@@ -522,3 +522,24 @@ footer figure {
 footer img {
   width: 100%;
 }
+
+/* CONTACT SECTION */
+.contactSection {
+  height: calc(100vh - 232px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contactSection h3 {
+  font-size: 32px;
+  max-width: 360px;
+  text-align: center;
+}
+
+.contactSection div {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
