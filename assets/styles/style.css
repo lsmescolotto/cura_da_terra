@@ -160,8 +160,9 @@ header {
   padding-top: 140px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  max-width: 360px;
 }
 
 h1 {
@@ -297,7 +298,7 @@ h1 {
 
 /* FOURTH SECTION */
 .fourthSection {
-  height: 1000px;
+  height: 920px;
   padding: 80px 32px;
   display: flex;
   flex-direction: column;
@@ -558,7 +559,7 @@ footer img {
 
   .firstTextContainer {
     padding-top: 215px;
-    justify-content: space-around;
+    max-width: 100%;
   }
 
   section a {
@@ -577,14 +578,24 @@ footer img {
     height: 54vw;
   }
 
+  /* FOURTH SECTION */
+  .recipeCard {
+    height: 35%;
+  }
+
+  /* FIFTH SECTION */
+  .fifthSection {
+    height: 685px;
+  }
+
   /* SIXTH SECTION */
   .sixthSection {
-    height: 1420px;
+    height: 1370px;
   }
 
   /* SEVENTH SECTION */
   .seventhSection {
-    height: 480px;
+    height: 475px;
     padding: 80px 34px;
   }
 
@@ -602,7 +613,7 @@ footer img {
   }
 
   .eighthSection p {
-    max-width: 85%;
+    max-width: 68%;
   }
 
   .eighthSection figure {
@@ -613,4 +624,9 @@ footer img {
   footer figure {
     width: 23%;
   }
+}
+
+@media screen and (min-width: 1024px) {
+  /* HEADER */
+  /* FIRST SECTION */
 }
