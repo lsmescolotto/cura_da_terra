@@ -629,4 +629,31 @@ footer img {
 @media screen and (min-width: 1024px) {
   /* HEADER */
   /* FIRST SECTION */
+  .firstSection {
+    background-image: url("../images/section1-bg-desktop.png");
+    background-size: 100vw 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 15%;
+  }
+
+  .firstTextContainer {
+    padding-top: 0;
+    height: 90%;
+    width: 50%;
+    justify-content: space-between;
+  }
+
+  .firstSection br {
+    display: none;
+  }
+
+  .subscribeButton,
+  .beigeSubscribeButton {
+    font-size: 24px;
+    height: 70px;
+    width: 100%;
+  }
 }
