@@ -201,7 +201,7 @@ h1 {
 
 /* SECOND SECTION */
 .secondSection {
-  height: "auto";
+  height: auto;
   padding: 80px 34px 20px 34px;
 }
 
@@ -313,10 +313,17 @@ h1 {
   max-width: 80%;
 }
 
+.recipeCardsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60%;
+}
+
 .recipeCard {
   width: 100%;
   max-width: 360px;
-  height: 25%;
+  height: 47%;
   max-height: 295px;
   border: 3px solid var(--main-green);
   display: flex;
@@ -352,6 +359,16 @@ h1 {
   font-size: 28px;
   text-align: center;
   line-height: 40px;
+}
+
+.fifthSection br {
+  display: none;
+}
+
+.fifth section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .fifthSection p {
@@ -579,13 +596,31 @@ footer img {
   }
 
   /* FOURTH SECTION */
-  .recipeCard {
-    height: 35%;
+  .recipeCardsContainer {
+    height: 70%;
   }
 
   /* FIFTH SECTION */
   .fifthSection {
-    height: 685px;
+    height: 600px;
+  }
+  .fifthSection div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 84%;
+  }
+
+  .fifthSection figure {
+    max-width: 465px;
+    max-height: 342px;
+  }
+
+  .fifthSection img {
+    height: 100%;
+    max-width: 465px;
+    padding-bottom: 0;
   }
 
   /* SIXTH SECTION */
@@ -654,6 +689,125 @@ footer img {
   .beigeSubscribeButton {
     font-size: 24px;
     height: 70px;
+    width: 420px;
+  }
+
+  /* SECOND SECTION */
+  .secondSection {
+    gap: 40px;
+    padding-bottom: 80px;
+  }
+
+  .cardsContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 96%;
+    align-content: space-evenly;
+    row-gap: 35px;
+  }
+
+  /* THIRD SECTION */
+  .thirdSection {
+    background-image: url("../images/section3-bg-desktop.jpg");
+    height: 310px;
+    padding: 10.41% 17.94%;
+  }
+
+  /* FOURTH SECTION */
+  .fourthSection {
+    height: 800px;
+    padding: 125px 32px;
+  }
+  .fourthSection h3 {
+    font-size: 48px;
+  }
+  .recipeCardsContainer {
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .recipeCard {
+    height: 370px;
+    width: 370px;
+  }
+
+  /* FIFTH SECTION */
+  .fifthSection {
+    padding: 100px 34px;
+    height: 880px;
+  }
+
+  .fifthSection h3 {
+    font-size: 48px;
+  }
+
+  .fifthSection br {
+    display: block;
+  }
+
+  .fifthSection div {
+    flex-direction: row-reverse;
+    justify-content: center;
     width: 100%;
+    max-width: 948px;
+    height: 536px;
+    gap: 20px;
+    border: 4px solid var(--main-green);
+  }
+
+  .fifthSection p {
+    text-align: left;
+    line-height: 142.8%;
+    font-size: 32px;
+    max-width: 270px;
+    max-height: 290px;
+  }
+
+  /* SIXTH SECTION */
+  .sixthSection {
+    padding: 120px;
+    height: 1600px;
+  }
+
+  .sixthSection h3 {
+    font-size: 40px;
+    line-height: 57.12px;
+    max-width: 690px;
+  }
+
+  .offer {
+    max-width: 595px;
+  }
+
+  /* SEVENTH SECTION */
+  .seventhSection {
+    flex-direction: row;
+    padding: 25px 80px;
+    height: 324px;
+  }
+
+  .seventhSection figure {
+    height: 90%;
+  }
+
+  .seventhSection div {
+    width: 70%;
+    max-width: 755px;
+  }
+
+  .seventhSection h4 {
+    font-size: 52px;
+    text-align: left;
+  }
+
+  .seventhSection p {
+    font-size: 32px;
+    text-align: left;
+  }
+
+  /* SEVENTH SECTION */
+  .eighthSection {
+    flex-direction: row-reverse;
   }
 }
