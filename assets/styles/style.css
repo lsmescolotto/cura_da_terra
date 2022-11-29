@@ -878,4 +878,9 @@ footer img {
     max-height: 370px;
     max-width: 370px;
   }
+
+  /* SIXTH SECTION */
+  .sixfthSection {
+    height: 1560px;
+  }
 }
