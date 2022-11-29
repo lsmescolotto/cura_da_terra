@@ -883,4 +883,10 @@ footer img {
   .sixfthSection {
     height: 1560px;
   }
+
+  /* SEVENTH SECTION */
+  .seventhSection {
+    justify-content: center;
+    gap: 100px;
+  }
 }
