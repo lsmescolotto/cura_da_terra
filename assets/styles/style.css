@@ -701,9 +701,8 @@ footer img {
   .cardsContainer {
     flex-direction: row;
     flex-wrap: wrap;
-    height: 96%;
+    max-height: 1000px;
     align-content: space-evenly;
-    row-gap: 35px;
   }
 
   /* THIRD SECTION */
@@ -809,5 +808,27 @@ footer img {
   /* SEVENTH SECTION */
   .eighthSection {
     flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 100px 45px;
+    height: auto;
+  }
+
+  .eighthSection div {
+    align-items: flex-start;
+    width: 45%;
+  }
+
+  .eighthSection h3 {
+    text-align: left;
+  }
+
+  .eighthSection p {
+    max-width: 100%;
+  }
+
+  .eighthSection figure {
+    width: 45%;
+    max-height: 504px;
+    max-width: 466px;
   }
 }
