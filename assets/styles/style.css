@@ -889,4 +889,20 @@ footer img {
     justify-content: center;
     gap: 100px;
   }
+
+  /* EIGHTH SECTION */
+  .eighthSection {
+    align-items: flex-start;
+    justify-content: center;
+    gap: 100px;
+  }
+
+  .eighthSection div {
+    width: 38%;
+  }
+
+  .eighthSection h3,
+  .eighthSection p {
+    line-height: 27.43px;
+  }
 }
