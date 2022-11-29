@@ -905,4 +905,9 @@ footer img {
   .eighthSection p {
     line-height: 27.43px;
   }
+
+  /* FOOTER */
+  footer {
+    height: 42vh;
+  }
 }
