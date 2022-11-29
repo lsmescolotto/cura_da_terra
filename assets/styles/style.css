@@ -868,4 +868,14 @@ footer img {
   .thirdSection {
     padding: 6.41% 26.94%;
   }
+
+  /* FOURTH SECTION */
+  .fourthSection {
+    height: 890px;
+  }
+
+  .recipeCard {
+    max-height: 370px;
+    max-width: 370px;
+  }
 }
