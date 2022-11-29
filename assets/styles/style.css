@@ -840,6 +840,26 @@ footer img {
   footer figure {
     width: 18%;
   }
+
+  /* CONTACT SECTION */
+  .contactSection {
+    height: calc(100vh - 28vh - 112px);
+  }
+
+  .contactSection h3 {
+    font-size: 52px;
+    max-width: 80%;
+  }
+
+  .contactSection div {
+    justify-content: center;
+    gap: 140px;
+  }
+
+  .contactSection .bigIcon {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
