@@ -831,4 +831,13 @@ footer img {
     max-height: 504px;
     max-width: 466px;
   }
+
+  /* FOOTER */
+  footer {
+    height: 28vh;
+  }
+
+  footer figure {
+    width: 18%;
+  }
 }
