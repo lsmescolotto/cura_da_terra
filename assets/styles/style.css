@@ -858,4 +858,9 @@ footer img {
   .beigeSubscribeButton {
     width: 535px;
   }
+
+  /* SECOND SECTION */
+  .cardsContainer {
+    height: 500px;
+  }
 }
