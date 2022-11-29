@@ -863,4 +863,9 @@ footer img {
   .cardsContainer {
     height: 500px;
   }
+
+  /* THIRD SECTION */
+  .thirdSection {
+    padding: 6.41% 26.94%;
+  }
 }
