@@ -116,7 +116,6 @@ header {
   list-style: none;
   padding-top: 30vh;
   max-height: 100vh;
-  font-weight: 600;
 }
 
 .showMenu {
@@ -153,6 +152,8 @@ header {
   background-image: url("../images/section1-bg-mobile.png");
   background-size: 100vw 1066px;
   padding: 0 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .firstTextContainer {
@@ -663,15 +664,42 @@ footer img {
 
 @media screen and (min-width: 1024px) {
   /* HEADER */
+  header {
+    padding: 18px 40px;
+  }
+
+  .mobileMenu {
+    display: none;
+  }
+
+  .menu {
+    position: static;
+    transform: none;
+    display: flex;
+    max-width: 481px;
+    gap: 48px;
+    padding-top: 0;
+  }
+
+  .menuItem {
+    margin: 0;
+    font-size: 32px;
+    text-transform: uppercase;
+  }
+
+  .menuItem .material-symbols-outlined {
+    display: none;
+  }
+
   /* FIRST SECTION */
   .firstSection {
     background-image: url("../images/section1-bg-desktop.png");
-    background-size: 100vw 350px;
-    height: 350px;
+    background-size: 100vw 55vh;
+    height: 55vh;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 15%;
+    padding: 50px 30px 50px 14vw;
   }
 
   .firstTextContainer {
@@ -679,6 +707,10 @@ footer img {
     height: 90%;
     width: 50%;
     justify-content: space-between;
+  }
+
+  .firstSubtitle {
+    margin-bottom: 4vh;
   }
 
   .firstSection br {
@@ -694,16 +726,29 @@ footer img {
 
   /* SECOND SECTION */
   .secondSection {
-    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-bottom: 80px;
+  }
+
+  .secondSection h2 {
+    max-width: 78%;
+    font-size: 48px;
+    line-height: 143%;
+  }
+
+  .s2Paragraph {
+    padding-top: 8px;
+    max-width: 78%;
+    font-size: 22px;
   }
 
   .cardsContainer {
     flex-direction: row;
     flex-wrap: wrap;
-    height: 96%;
+    max-height: 1000px;
     align-content: space-evenly;
-    row-gap: 35px;
   }
 
   /* THIRD SECTION */
@@ -806,8 +851,184 @@ footer img {
     text-align: left;
   }
 
-  /* SEVENTH SECTION */
+  /* EIGHTH SECTION */
   .eighthSection {
     flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 100px 45px;
+    height: auto;
+  }
+
+  .eighthSection div {
+    align-items: flex-start;
+    width: 45%;
+  }
+
+  .eighthSection h3 {
+    text-align: left;
+    font-size: 40px;
+  }
+
+  .eighthSection p {
+    max-width: 100%;
+    font-size: 20px;
+  }
+
+  .eighthSection b {
+    font-size: 24px;
+  }
+
+  .eighthSection figure {
+    width: 45%;
+    max-height: 504px;
+    max-width: 466px;
+  }
+
+  /* FOOTER */
+  footer {
+    height: 28vh;
+  }
+
+  footer figure {
+    width: 18%;
+  }
+
+  /* CONTACT SECTION */
+  .contactSection {
+    height: calc(100vh - 28vh - 112px);
+  }
+
+  .contactSection h3 {
+    font-size: 52px;
+    max-width: 80%;
+  }
+
+  .contactSection div {
+    justify-content: center;
+    gap: 140px;
+  }
+
+  .contactSection .bigIcon {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* HEADER */
+  header {
+    padding: 18px 10%;
+  }
+
+  /* FIRST SECTION */
+  .firstSection {
+    padding: 90px 30px 90px 15%;
+    height: 66vh;
+    background-size: 100vw 66vh;
+  }
+
+  .firstTextContainer {
+    max-width: 535px;
+    height: 85%;
+  }
+
+  .subscribeButton,
+  .beigeSubscribeButton {
+    width: 535px;
+  }
+
+  /* SECOND SECTION */
+  .secondSection h2 {
+    font-size: 48px;
+    max-width: 756px;
+  }
+
+  .s2Paragraph {
+    max-width: 756px;
+  }
+
+  .cardsContainer {
+    height: 500px;
+    max-width: 1280px;
+    justify-content: center;
+    gap: 1vw;
+  }
+
+  /* THIRD SECTION */
+  .thirdSection {
+    padding: 6.41% 26.94%;
+  }
+
+  /* FOURTH SECTION */
+  .fourthSection {
+    height: 890px;
+  }
+
+  .recipeCard {
+    max-height: 370px;
+    max-width: 370px;
+  }
+
+  /* SIXTH SECTION */
+  .sixfthSection {
+    height: 1560px;
+  }
+
+  /* SEVENTH SECTION */
+  .seventhSection {
+    justify-content: center;
+    gap: 100px;
+  }
+
+  /* EIGHTH SECTION */
+  .eighthSection {
+    align-items: flex-start;
+    justify-content: center;
+    gap: 100px;
+  }
+
+  .eighthSection div {
+    width: 38%;
+    max-width: 562px;
+  }
+
+  .eighthSection h3,
+  .eighthSection p {
+    line-height: 27.43px;
+  }
+
+  /* FOOTER */
+  footer {
+    height: 42vh;
+  }
+
+  /* CONTACT SECTION */
+  .contactSection {
+    height: calc(100vh - 252px);
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  /* HEADER */
+  header {
+    padding: 18px 16.4vw;
+  }
+
+  /* FIRST SECTION */
+  .firstSection {
+    padding-left: 18vw;
+    height: 60vh;
+    background-size: 100vw 60vh;
+  }
+
+  .firstTextContainer {
+    height: 72%;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  /* HEADER */
+  header {
+    padding: 18px 18vw;
   }
 }
