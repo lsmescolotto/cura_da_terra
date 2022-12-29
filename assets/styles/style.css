@@ -747,7 +747,6 @@ footer img {
     flex-direction: row;
     flex-wrap: wrap;
     max-height: 1000px;
-    align-content: space-evenly;
     height: auto;
     min-height: 500px;
     justify-content: center;
